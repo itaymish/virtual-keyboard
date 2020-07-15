@@ -1,5 +1,54 @@
 <html>
-<head>
-<title>virtual keyboard</title>
-</head>
-<body>
+	<head>
+		<title>virtual number keyboard</title>
+	</head>
+	<body>
+		<h1 id="hl" style="font-family:arial; font-size:50; "></h1>
+		<button style="font-size:16px; border-radius:4px; padding:10px 16px; margin:8px 48px 24px 48px; background-color:rgb(74, 144, 226); color:rgb(255, 255, 255); border:0; cursor:pointer; display:inline-block;" onclick="one()">1</button>
+		<button style="font-size:16px; border-radius:4px; padding:10px 16px; margin:8px 48px 24px 48px; background-color:rgb(74, 144, 226); color:rgb(255, 255, 255); border:0; cursor:pointer; display:inline-block;" onclick="two()">2</button>
+		<button style="font-size:16px; border-radius:4px; padding:10px 16px; margin:8px 48px 24px 48px; background-color:rgb(74, 144, 226); color:rgb(255, 255, 255); border:0; cursor:pointer; display:inline-block;" onclick="three()">3</button>
+		<br>
+		<button style="font-size:16px; border-radius:4px; padding:10px 16px; margin:8px 48px 24px 48px; background-color:rgb(74, 144, 226); color:rgb(255, 255, 255); border:0; cursor:pointer; display:inline-block;" onclick="four()">4</button>
+		<button style="font-size:16px; border-radius:4px; padding:10px 16px; margin:8px 48px 24px 48px; background-color:rgb(74, 144, 226); color:rgb(255, 255, 255); border:0; cursor:pointer; display:inline-block;" onclick="five()">5</button>
+		<button style="font-size:16px; border-radius:4px; padding:10px 16px; margin:8px 48px 24px 48px; background-color:rgb(74, 144, 226); color:rgb(255, 255, 255); border:0; cursor:pointer; display:inline-block;" onclick="six()">6</button>
+		<br>
+		<button style="font-size:16px; border-radius:4px; padding:10px 16px; margin:8px 48px 24px 48px; background-color:rgb(74, 144, 226); color:rgb(255, 255, 255); border:0; cursor:pointer; display:inline-block;" onclick="seven()">7</button>
+		<button style="font-size:16px; border-radius:4px; padding:10px 16px; margin:8px 48px 24px 48px; background-color:rgb(74, 144, 226); color:rgb(255, 255, 255); border:0; cursor:pointer; display:inline-block;" onclick="eight()">8</button>
+		<button style="font-size:16px; border-radius:4px; padding:10px 16px; margin:8px 48px 24px 48px; background-color:rgb(74, 144, 226); color:rgb(255, 255, 255); border:0; cursor:pointer; display:inline-block;" onclick="nine()">9</button>
+		<br>
+        <button style="border:white; color:white;">00000000000000000</button>
+		<button style="font-size:16px; border-radius:4px; padding:10px 16px; margin:8px 48px 24px 48px; background-color:rgb(74, 144, 226); color:rgb(255, 255, 255); border:0; cursor:pointer; display:inline-block;" onclick="zero()">0</button>
+		<script>
+			function one() {
+				document.getElementById("hl").textContent = "1 - ONE";
+			}
+			function two() {
+				document.getElementById("hl").textContent = "2 - TWO";
+			}
+			function three() {
+				document.getElementById("hl").textContent = "3 - THREE";
+			}
+			function four() {
+				document.getElementById("hl").textContent = "4 - FOUR";
+			}
+			function five() {
+				document.getElementById("hl").textContent = "5 - FIVE";
+			}
+			function six() {
+				document.getElementById("hl").textContent = "6 - SIX";
+			}
+			function seven() {
+				document.getElementById("hl").textContent = "7 - SEVEN";
+			}
+			function eight() {
+				document.getElementById("hl").textContent = "8 - EIGHT";
+			}
+			function nine() {
+				document.getElementById("hl").textContent = "9 - NINE";
+			}
+			function zero() {
+				document.getElementById("hl").textContent = "0 - ZERO";
+			}
+		</script>
+	</body>
+</html>
